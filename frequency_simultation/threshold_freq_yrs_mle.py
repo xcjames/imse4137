@@ -7,6 +7,8 @@ from scipy.optimize import minimize
 import statsmodels.api as sm
 from scipy.optimize import minimize_scalar
 from scipy.special import factorial
+import matplotlib
+matplotlib.use('TKAgg')
 
 # Define the log-likelihood function
 def poisson_likelihood(params, data):
