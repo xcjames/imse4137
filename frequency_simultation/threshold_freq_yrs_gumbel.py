@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('TKAgg')
 from scipy.stats import poisson, chisquare, chi2_contingency, chi2
 from scipy.optimize import minimize
 from scipy.stats import gumbel_r
