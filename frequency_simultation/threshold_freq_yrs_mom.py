@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import poisson, chisquare, chi2_contingency, chi2
-
+import matplotlib
+matplotlib.use('TKAgg')
 data=pd.read_excel(io='eqList2024_04_28.xlsx' , sheet_name="Sheet1", dtype={'Year':int,'Magnitude':float})
 
 start = 3
